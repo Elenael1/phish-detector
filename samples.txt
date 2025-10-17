@@ -1,0 +1,8 @@
+https://google.com
+http://login-secure-google.com/verify?account=free-gift
+https://apple.com.support.example.com/login
+http://xn--pple-43a.com
+http://example.tk/login
+https://mybank.com
+http://suspicious--site.example.com/login
+http://news.example.com/article?id=12345
