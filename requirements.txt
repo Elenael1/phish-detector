@@ -1,0 +1,5 @@
+scikit-learn==1.2.0
+pandas
+joblib
+scipy
+numpy
