@@ -1,0 +1,9 @@
+url,label,probability,reasons
+https://google.com,LEGIT,0.21,has_https=1;num_dots=1;host_len=10
+http://login-secure-google.com/verify?account=free-gift,PHISH,1.00,num_dots=1;host_len=23
+https://apple.com.support.example.com/login,PHISH,1.00,has_https=1;num_dots=4;host_len=29
+http://xn--pple-43a.com,PHISH,0.90,num_dots=1;host_len=16
+http://example.tk/login,LEGIT,0.23,num_dots=1;suspicious_tld=1;host_len=10
+https://mybank.com,LEGIT,0.21,has_https=1;num_dots=1;host_len=10
+http://suspicious--site.example.com/login,PHISH,1.00,num_dots=2;host_len=28
+http://news.example.com/article?id=12345,PHISH,0.90,num_dots=2;host_len=16
