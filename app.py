@@ -10,6 +10,17 @@ from rq.job import Job
 # ---------- App & health ----------
 app = FastAPI(title="Phish Detector")
 
+from fastapi.responses import JSONResponse
+
+@app.get("/")
+def root():
+    return JSONResponse({
+        "message": "✅ Phish Detector API is running!",
+        "docs": "Visit /docs to test the endpoints",
+        "endpoints": ["/predict", "/predict-deep", "/result/{job_id}"]
+    })
+
+
 @app.get("/")
 def root():
     return {"ok": True, "message": "Phish Detector API. POST /predict (fast) or /predict-deep (async). Open /docs."}
